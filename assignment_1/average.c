@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+# calculates average
 
 double average(int n, double arr[]) {
     double acc = 0.0;
