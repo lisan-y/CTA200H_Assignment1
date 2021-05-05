@@ -1,2 +1,9 @@
-average: average.c main.c
-	gcc -o average average.c main.c -std=gnu99 -I.
+CC=gcc
+DEPS=average.h
+OBJ=average.o main.o
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CLFAGS)
+
+average: $(OBJ)
+	$(CC) -o $@ $^ $(CFLAGS) 
