@@ -1,0 +1,91 @@
+  584  mkdir CTA200_Assign1
+  585  cd CTA200_Assign1/
+  586  echo "CTA200 Assignment 1" > README.md
+  587  git init
+  588  git add README.md
+  589  vim LICENSE
+  590  git add LICENSE
+  591  ls -la
+  592  git commit -m  "Initial commit"
+  593  mkdir "assignment_1"
+  594  git remote add origin git@github.com:lisan-y/CTA200H_Assignment1.git
+  595  git branch -M main
+  596  git push -u origin main
+  597  branch
+  598  pwd
+  599  cp ~/CTA200H/assignment1_2021/average.c /mnt/scratch-lustre/nasuyu/CTA200_Assign1/assignment_1/
+  600  ls
+  601  cs assignment_1/
+  602  cd assignment_1/
+  603  ls
+  604  cp {~/CTA200H/assignment1_2021/average.h, ~/CTA200H/assignment1_2021/main.c} /mnt/scratch-lustre/nasuyu/CTA200_Assign1/assignment_1/
+  605  cp ~/CTA200H/assignment1_2021/average.h /mnt/scratch-lustre/nasuyu/CTA200_Assign1/assignment_1/
+  606  cp ~/CTA200H/assignment1_2021/main.c /mnt/scratch-lustre/nasuyu/CTA200_Assign1/assignment_1/
+  607  ls
+  608  vim Makefile
+  609  make
+  610  cat average.c
+  611  vim Makefile
+  612  make
+  613  vim Makefile
+  614  make
+  615  vim Makefile
+  616  make
+  617  ./average
+  618  git commit -m "Second commit"
+  619  git add Makefile main.c average.c average.h
+  620  git commit -m "second commit"
+  621  git push -u origin main
+  622  vim average.c
+  623  git commit -m "Added comment to average.c"
+  624  git push -u origin main
+  625  git add average.c
+  626  git commit -m "Added comment to average.c"
+  627  git push -u origin main
+  628  ls
+  629  vim Makefile
+  630  make
+  631  vim Makefile
+  632  make
+  633  vim Makefile
+  634  make
+  635  vim Makefile
+  636  make
+  637  vim Makefile
+  638  make
+  639  vim Makefile
+  640  make
+  641  vim Makefile
+  642  make
+  643  vim Makefile
+  644  make
+  645  vim Makefile
+  646  ls -la
+  647  vim average.c
+  648  make
+  649  vim average.c
+  650  make
+  651  vim Makefile
+  652  module purge
+  653  module load gcc/5.4.0
+  654  vim Makefile
+  655  make
+  656  ls -la
+  657  ./average
+  658  git add Makefile
+  659  vim average.c
+  660  make
+  661  vim average.c
+  662  make
+  663  git commit -m "Update Makefile"
+  664  git push -u origin main
+  665  vim history > history.txt
+  666  ls
+  667  more history.txt
+  668  vim history.txt
+  669  vi history.txt
+  670  rm history.txt
+  671  vim history.txt
+  672  history > history.txt
+  673  vim history.txt
+  674  history 91 > history.txt
